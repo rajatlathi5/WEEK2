@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title>Our Menu</title>
+</head>
+<body>
+<style>
+* {
+	box-sizing: border-box;
+  	margin: 10px;
+  }
+
+h2{
+	font-size: 49px;
+	text-align: center;
+	font-family: cursive;
+	color: red;
+}
+
+#box{
+	background-color: pink;
+	margin:auto;
+	padding: 10px;
+	position: relative;
+	font-size: 20px;
+	font-family: Comic sans MS;
+}
+
+p {
+	position:relative;
+	top:-15px;
+	
+  }
+
+p>t1 {
+
+  	background-color: #DEB887;
+  	border: 1px solid black;
+  	padding: 2px;
+  	float: right;
+  	position:relative;
+	top:-16px;
+	right:-31px;
+}
+
+p>t2 {
+  	background-color: #5F9EA0;
+  	border: 1px solid black;
+  	padding: 5px;
+  	float: right;
+  	position:relative;
+	top:-16px;
+	right:-31px;
+
+}
+
+p>t3 {
+	border: 1px solid black;
+  	background-color: #FF7F50;
+  	padding: 5px;
+  	float: right;
+  	position:relative;
+	top:-16px;
+	right:-31px;
+}
+
+
+.row {
+  	width: 100%;
+}
+
+@media (min-width: 992px) {
+ .col-lg-4{
+    float: left;
+    border: 1px solid black;
+    width: 31%;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-6 {
+    width: 47%;
+  }
+  .col-md-12 {
+    width: 96.5%;
+  }
+}
+@media (max-width: 767px) {
+.col-sl-12 {
+    float: left;
+    border: 1px solid black;
+    width: 96.5%;
+  }
+}
+</style>
+<h2> Our Menu </h2>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sl-12"><div id ="box"><p><t1> Chicken </t1></p>Chicken is the most common type of poultry in the world. Chickens have become prevalent throughout the cuisine of cultures and their meat has been variously adapted to regional tastes.</div></div>
+  <div class="col-lg-4 col-md-6 col-sl-12"><div id ="box"><p><t2> Beef </t2></p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients.</div></div>
+  <div class="col-lg-4 col-md-12 col-sl-12"><div id ="box"><p><t3> Sushi </t3></p>Sushi (すし, 寿司, 鮨, pronounced [sɯꜜɕi] is a Japanese dish of prepared vinegared rice (鮨飯 sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients.</div></div>
+</div>
+</body>
+</html>
